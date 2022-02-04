@@ -1,0 +1,131 @@
+
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rebeccapurple;
+    background: mediumpurple;
+    line-height: 1.5;
+}
+   
+#fondo_titulo{
+    background: url(../images/fondo_menu.jpg);
+    height:25vh;
+    background-position: left;
+    background-size: cover;
+    border: 5px double plum;
+    border-radius: 20px;
+}
+
+.titulo-2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 46%;
+    border-bottom:2px solid blanchedalmond;
+}
+
+#titulo{
+    text-align: right;
+    color: plum;
+    font-size: 500%;
+    margin-right: 10%;
+}
+
+.indice{
+    background-color: #ccc;
+    margin: 20px 73% 20px 30px;
+    list-style: none; 
+    border-radius: 10px;
+}
+
+.indices a{
+    text-decoration: none;
+    padding: 1px 50px;
+    display: block;
+    border-radius: 20px;
+}
+
+.indices a:hover{
+    background-color: plum;
+}
+
+.menu{
+    text-align: left;
+    margin-left: 25%;
+    color: plum;
+    background-color: rgb(65, 59, 59);
+    margin-right: 59.2%;
+    margin-top: 8%;
+}
+
+.menu01, .menu02, .menu03{
+    text-align: center;
+    background-color: rgba(47, 79, 79, 0.486);
+}
+
+.div .one{
+    float: right;
+    margin-top: 6.5%;
+    margin-right: 15%;
+}
+
+.div .two{
+    float: right;
+    margin-top: 3.6%;
+    margin-right: 23.5%;
+}
+
+.div .tree{
+    float: right;
+    margin-top: 5.5%;
+    margin-right: 19%;
+}
+
+#recetas{
+    margin: 6rem;
+    font-size: 30px;
+}
+
+.ingredientes{
+    margin: 2px;
+    margin-left: 5%;
+}
+
+h1 ~ p{
+    color: rgb(3, 26, 51);
+    margin: 0px 76.8% 0px 0px;
+    font-size: 20px;
+}
+
+.link{
+    background-color: rgba(211, 211, 211, 0.568);
+    width: 100% ;
+    color: rgb(60, 89, 119);
+}
+
+.listPrin{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.listPrin .listsegun{
+    display: inline-block;
+}
+
+.enlaces{
+    vertical-align: text-top;
+}
+
+.piedepagina{
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+
